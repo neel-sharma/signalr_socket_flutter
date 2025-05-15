@@ -27,6 +27,8 @@ apply plugin: 'kotlin-android'
 android {
     compileSdkVersion 31
 
+    namespace 'com.arashz4.signalr_socket'
+
     compileOptions {
         sourceCompatibility JavaVersion.VERSION_1_8
         targetCompatibility JavaVersion.VERSION_1_8
